@@ -1,0 +1,78 @@
+1: To check if the git is installed properly or not 
+check version 
+  : git --version
+
+2: To connect GitHub account to git by using visual studio
+  :  first steps:  git config --global user.name "gauravmahanaji"
+  :  second steps: git config --global user.email "Gaurav.mhana91@gmail.com" 
+
+3: to pull the project from GitHub to git
+ 
+  :  git clone https://github.com/gauravmahanaji/myfirstproject.git
+
+4  select the project folder 
+   :  cd myfirstproject
+
+5  to put the changes in staged positions # to add the changes 
+       :  git add .
+       : git commit -m "this  my first commit "  # to make the changes unmodified
+
+6   To make the changes from git to GitHub 
+       : git push origin main
+
+============================
+1:  Track local repository by git 
+   : 1  create new folder in system anywhere in system
+   : 2  open folder in visual studio
+   : add file in folder by vs 
+   : initialize command   
+          : git init     # when we make the new folder in git first we need to use git init command to get tracked by git 
+          : git status   # to check the current status 
+          : git add filename.extension or git add .  # staged position     u untracked
+          : git commit -m "you can put your comment here"                  A staged position
+
+
+2 upload local folder in git hub to new repository
+       
+      :  git remote add origin https://github.com/gauravmahanaji/mysecondproject.git
+      : git push origin main 
+        if it gives error 
+       git remote remove origin  # will remove the current reprosirty selected
+========================================
+mkdir # used to make the new directory or folder 
+ls    # used to show the current directory files 
+git branch    # to check all the branch 
+git branch priyanshu   # we are creating new branch by the name of priyanshu
+git checkout priyanshu # we are switching to priyanshu branch
+git push origin priyanshu   # we are making
+git branch priyanshu
+git checkout main
+git push origin priyanshu
+git init priyanshu 
+==============================
+2. Delete a Remote Branch 
+git push <remote-name> --delete <branch-name>
+git push origin --delete Gaurav or branch name 
+
+
+      
+
+    
+
+          
+
+          
+ 
+
+
+
+
+   
+
+
+
+
+
+    
+
+

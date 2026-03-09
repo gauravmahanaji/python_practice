@@ -52,7 +52,9 @@ git init priyanshu
 ==============================
 2. Delete a Remote Branch 
 git push <remote-name> --delete <branch-name>
-git push origin --delete Gaurav or branch name 
+git push origin --delete Gaurav or branch name
+1. Delete a Local Branch 
+git branch -d <branch-name>
 
 
       
